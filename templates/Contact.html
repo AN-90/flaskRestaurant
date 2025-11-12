@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <Nav>
+        <a href="{{url_for('Home')}}">Home</a>
+        <a href="{{url_for('Menu')}}">Menu</a>
+        <a href="{{url_for('Contact')}}l">Contact</a>
+    </Nav>
+    <main>
+        <form>
+            <h2>Reservation/Inquiry</h2>
+            <input type="text" placeholder="Your Name">
+            <input type ="email" placeholder="Your Email">
+            <textarea name="text-area" name="text-area" id="text-area" rows=5 placeholder="Your Message or Booking details."></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer>&copy 2025 TastyBite.All rights reserved</footer>
+</body>
+</html>
